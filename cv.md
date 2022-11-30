@@ -25,3 +25,29 @@ I am stimulated by freedom, I want to travel and not be tied to office work.
 I try to learn English, I plan to devote more time to study in the future.
 
 ---
+
+__Skills__ 
+
+*HTML5, CSS3
+*Adobe Photoshop, Illustrator
+*VS Code
+
+---
+
+__Code example:__
+
+This code does not execute properly. Try to figure out why.
+
+```
+ # function multiply(a, b){
+ return a * b;
+ }
+```
+
+>Time: 755ms Passed: 1Failed: 0
+>Test Results:
+>Multiply
+>fixed tests
+>You have passed all of the tests! :)
+
+---
