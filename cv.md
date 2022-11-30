@@ -51,3 +51,28 @@ This code does not execute properly. Try to figure out why.
 >You have passed all of the tests! :)
 
 ---
+
+__Work experience:__
+
+_Nothing yet_
+
+---
+
+__Education:__
+
+* Courses:  
+    + Basics of HTML and CSS
+    + JavaScript (in process…)
+
+* App:
+    + Program Mimo
+
+---
+
+__Languages:__
+
+* Russian
+* Ukrainian 
+* A1 (A2-in process…)
+
+---
