@@ -28,9 +28,9 @@ I try to learn English, I plan to devote more time to study in the future.
 
 __Skills__ 
 
-*HTML5, CSS3
-*Adobe Photoshop, Illustrator
-*VS Code
+* HTML5, CSS3
+* Adobe Photoshop, Illustrator
+* VS Code
 
 ---
 
