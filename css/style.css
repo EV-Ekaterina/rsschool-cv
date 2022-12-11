@@ -1,3 +1,85 @@
-h1{
-    color: aqua;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #d4d4d4;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.caption { /* задаю стиль заголовкам */
+  background-color: #ba8f89;
+  width: 200px;
+  height: 30px;
+  padding-top: 3px;
+  padding-left: 25px;
+  border-radius: 150px;
+  font-size: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text{
+  font-size: 20px;
+  padding: 20px;
+  line-height: 25px;
+}
+
+.nav-list {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #c5b8b7;
+  border-radius: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  color: black;
+  font-size: 18px;
+}
+
+.first{ /* позиционирую перый флекс бокс */
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.one-flexs{ /* позиционирую первый items имя+фото */
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+}
+.name {
+  background-color: #c5b8b7;
+  padding-top: 10px;
+  padding-left: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+img {
+  border-radius: 180px;
+}
+.two-flex{  /* позиционирую второй items  контакт и me */
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.section_contact {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.inside-aligned { /* стилизация списка контактов */
+  border-left: 5px solid #c5b8b7;
+  padding: 20px;
+  list-style: none;
+  counter-reset: li;
 }
