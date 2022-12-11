@@ -82,4 +82,5 @@ img {
   padding: 20px;
   list-style: none;
   counter-reset: li;
+  line-height: 40px;
 }
