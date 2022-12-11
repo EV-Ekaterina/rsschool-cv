@@ -1,25 +1,27 @@
 * {
   box-sizing: border-box;
 }
-
+html { 
+  scroll-behavior: smooth;  
+}
 body {
   display: flex;
   flex-direction: column;
-  background-color: #d4d4d4;
+  background-color: #dadada;
 }
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  border-left: 2px solid #c5b8b7;
+  border-right: 2px solid #c5b8b7;
 }
 .caption { /* задаю стиль заголовкам */
-  background-color: #ba8f89;
+  background: linear-gradient(#ba8f89, #c5b8b7) ;
   width: 200px;
-  height: 30px;
+  height: 40px;
   padding-top: 3px;
   padding-left: 25px;
-  border-radius: 150px;
-  font-size: 20px;
+  font-size: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .text{
@@ -27,44 +29,39 @@ body {
   padding: 20px;
   line-height: 25px;
 }
-
 .nav-list {
   margin: 20px;
   display: flex;
   justify-content: space-around;
   list-style: none;
-  background-color: #c5b8b7;
-  border-radius: 150px;
+  background: linear-gradient(#ba8f89, #c5b8b7, #d4d4d4);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
 }
-
 .first{ /* позиционирую перый флекс бокс */
   display: flex;
   flex-direction: row-reverse;
 }
-
 .one-flexs{ /* позиционирую первый items имя+фото */
   display: flex;
   flex-direction: column;
   padding-right: 200px;
 }
 .name {
-  background-color: #c5b8b7;
+  background: linear-gradient(#ba8f89, #c5b8b7);
   padding-top: 10px;
-  padding-left: 100px;
-  height: 40px;
-  font-size: 20px;
-  border-radius: 150px;
+  padding-left: 70px;
+  height: 50px;
+  font-size: 25px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 img {
-  border-radius: 180px;
+  filter: saturate(80%);
 }
 .two-flex{  /* позиционирую второй items  контакт и me */
   display: flex;
@@ -72,15 +69,44 @@ img {
   padding-left: 200px;
   padding-top: 50px;
 }
-
 .section_contact {
   margin-bottom: 50px;
   font-size: 20px;
 }
-.inside-aligned { /* стилизация списка контактов */
-  border-left: 5px solid #c5b8b7;
+.inside-aligned { /* стилизация списка*/
+  border-left: 3px solid #BA8F89;
   padding: 20px;
   list-style: none;
   counter-reset: li;
-  line-height: 40px;
+  line-height: 30px;
+  border-radius: 10px;
+}
+.second{  /* второй флекс */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+  padding: 30px 50px 20px 50px;
+  background: linear-gradient(#c5b8b7, #d4d4d4);
+  font-size: 18px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.third{ /* третий флекс код и образование */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 180px 20px 180px;
+  font-size: 18px;
+}
+.section_education{ /* секция образование */
+  background: linear-gradient(#c5b8b7, #d4d4d4);
+  height: 350px;
+  width: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section_code{ /* секция кода */
+  background: linear-gradient(#c5b8b7, #d4d4d4);
+  height: 350px;
+  width: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
